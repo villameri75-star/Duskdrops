@@ -65,7 +65,9 @@ export default function ProductPage({ params }: Props) {
 
             {/* CTA — Lemon Squeezy */}
             <a
-              href="#" // TODO: reemplazar con URL de Lemon Squeezy
+              href="https://duskdrops.lemonsqueezy.com/checkout/buy/0c56d0fb-79e5-4425-858c-afe8db9adbeb"
+              target="_blank"
+rel="noopener noreferrer"
               className="btn-primary w-full text-base mb-3 justify-center"
             >
               Buy now — $27
