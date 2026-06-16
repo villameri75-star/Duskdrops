@@ -18,42 +18,16 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 bg-ivory/95 backdrop-blur-sm border-b border-dusk">
       <nav className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-4">
 
-        {/* Logo + nombre */}
+        {/* Logo */}
         <Link href="/" className="flex items-center gap-2.5 shrink-0 group">
-          {/*
-            ╔══════════════════════════════════════════════════════╗
-            ║  ESPACIO PARA EL LOGO DE DUSKDROPS                  ║
-            ║  Cuando tengas el logo listo:                        ║
-            ║  1. Guarda el archivo en /public/images/logo.svg     ║
-            ║     (o logo.png si prefieres PNG)                    ║
-            ║  2. Descomenta el bloque <Image> de abajo            ║
-            ║  3. Ajusta width y height según el logo              ║
-            ╚══════════════════════════════════════════════════════╝
-          */}
-
-          {/* Logo placeholder — reemplazar cuando esté listo */}
-          <div
-            className="w-8 h-8 rounded-lg border-2 border-dashed border-sunset/40 flex items-center justify-center text-sunset/60 text-xs font-body font-medium shrink-0 group-hover:border-sunset group-hover:text-sunset transition-colors duration-200"
-            title="Logo Duskdrops — próximamente"
-            aria-label="Logo placeholder"
-          >
-            ✦
-          </div>
-
-          {/*
           <Image
-            src="/images/logo.svg"
+            src="/images/logo.png"
             alt="Duskdrops logo"
-            width={32}
-            height={32}
+            width={140}
+            height={40}
             className="shrink-0"
             priority
           />
-          */}
-
-          <span className="font-display text-xl font-bold tracking-tight text-night">
-            Dusk<span className="text-sunset">drops</span>
-          </span>
         </Link>
 
         {/* Nav links — desktop */}
